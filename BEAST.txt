@@ -1,0 +1,26 @@
+BEAST Analysis 
+R. Bouckaert, et al., BEAST 2.5: An advanced software platform for Bayesian evolutionary analysis. PLoS Comput. Biol. 15, 1–28 (2019).
+
+Create an .xml with BEAUTI:
+1. Upload 2678 variants fasta file
+
+2. Adjust parameters 
+	• Site model: Gamma site model
+	• Substitution rate 
+		• Upper mut rate: 2.11E-9
+		• Lower mut rate: 1.41E-9
+		• Mutation rate: 1.69E-9
+	• Proportion of invariant sites: (5,834,017-2678)/5,834,017= 0.999540968084255
+	• Substitution model: HKY
+	• Clock model: Strict clock
+	• Priors: Coalescent constant population
+	• MCMC: 20,000,000 
+
+3. Run the xml file with the BEAST (2x):
+/Applications/BEAST\2.7.3/bin/beast -threads 8 /pathto/file.xml
+
+4. Run Tree annotator to merge trees
+
+5. Investigate log files via Tracer v1.7.2
+
+6. Open the Tree annotator file via FigTree v1.4.4
