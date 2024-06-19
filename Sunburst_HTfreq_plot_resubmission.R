@@ -1,5 +1,5 @@
 ### Haplotype frequencies 
-#Data and plots for Figure 3, Figure 5b, and Supporting Figure S6
+#Data and plots for Figure 2, Figure 4b, and Supporting Figure S6
 setwd("/Users/radovicl/Desktop/CoronatYon/PNAS_resubmission_27052024/coronatYon_resubmission_analysis/Users/radovicl/Desktop/CoronatYon/PNAS_resubmission_27052024/coronatYon_resubmission_analysis/CoronatYon_Supplement_resubmission")
 getwd()
 
